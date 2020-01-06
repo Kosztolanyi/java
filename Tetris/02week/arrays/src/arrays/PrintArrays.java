@@ -1,6 +1,9 @@
 package arrays;
 
-public class PrintMatrix {
+import java.util.Arrays;
+
+public class PrintArrays {
+	
 	public static void printMatrix (int[][] matrix) {
 		for (int i = 0; i < matrix.length; i++) {
 		    for (int j = 0; j < matrix[i].length; j++) {
@@ -8,6 +11,10 @@ public class PrintMatrix {
 		    }
 		    System.out.println();
 		}
+	}
+	
+	public static void printArray (int[] array) {
+		System.out.println(Arrays.toString(array));
 	}
 
 }

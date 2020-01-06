@@ -8,7 +8,7 @@ public class DiagonalMatrix {
 			matrix[i][i] = 1;
 
 		}
-		PrintMatrix.printMatrix(matrix);
+		PrintArrays.printMatrix(matrix);
 }
 
 }
